@@ -10,3 +10,18 @@ A chat application based on java web services. I developed this application to i
 
 ## Main screens of the application 
 
+1. Register User Screen
+
+![RegisterUserScree](Resources/RegisterUser_Screen.png)
+
+2. Login User Screen
+
+![LoginUserScreen](Resources/LoginUser_Screen.png)
+
+3. Threads Screen
+
+![ThreadsScreen](Resources/Threads_Screen.png)
+
+4. Message Screen
+
+![MessageScreen](Resources/Msg_Screen.png)
