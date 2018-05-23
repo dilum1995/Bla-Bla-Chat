@@ -1,6 +1,12 @@
 # Bla-Bla-Chat
 A chat application based on java web services. I developed this application to improve my knowledge related to Client Server Architecture module.
 
+  **Technology behind the Bla-Bla Chat Application**
+  * Java
+  * Java Swing for the graphical user interface
+  * Java Web Services
+  * GlassFish Server
+
 ## Functionalities of Bla-Bla Chat
 
 * Users can manage acounts (Login/Register funtion).
