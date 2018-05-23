@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7526b946-02c8-469a-ba00-7e3cfbebd6c4" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="MODULES/mdl-ChatClientFinal" pinned="false" current-in-tab="false">
+        <entry file="uml://MODULES/mdl-ChatClientFinal">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>MODULES</ID>
+              <OriginalElement>mdl-ChatClientFinal</OriginalElement>
+              <nodes>
+                <node x="95.25" y="0.0">mdl-ChatClientFinal</node>
+                <node x="185.0" y="79.0">mdl-generated-sources</node>
+                <node x="0.0" y="79.0">mdl-jax-wsCache</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="mdl-ChatClientFinal" target="mdl-jax-wsCache">
+                  <point x="-44.75" y="14.5" />
+                  <point x="140.0" y="54.0" />
+                  <point x="82.5" y="54.0" />
+                  <point x="0.0" y="-14.5" />
+                </edge>
+                <edge source="mdl-ChatClientFinal" target="mdl-generated-sources">
+                  <point x="44.75" y="14.5" />
+                  <point x="229.5" y="54.0" />
+                  <point x="287.0" y="54.0" />
+                  <point x="0.0" y="-14.5" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="1.6318511962890625" x="-49.743340034597225" y="-119.10076207396324" />
+              <SelectedNodes>
+                <node>mdl-ChatClientFinal</node>
+                <node>mdl-jax-wsCache</node>
+              </SelectedNodes>
+              <Categories />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JAVA/" pinned="false" current-in-tab="false">
+        <entry file="uml://JAVA/">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JAVA</ID>
+              <OriginalElement />
+              <nodes>
+                <node x="324.0" y="370.0">com</node>
+                <node x="193.0" y="222.0">netscape</node>
+                <node x="0.0" y="296.0">oracle</node>
+                <node x="311.0" y="444.0">org</node>
+                <node x="0.0" y="148.0">WebService</node>
+                <node x="0.0" y="222.0">resources</node>
+                <node x="278.0" y="0.0">toolbarButtonGraphics</node>
+                <node x="156.0" y="444.0">sun</node>
+                <node x="204.0" y="148.0">META-INF</node>
+                <node x="0.0" y="518.0">jdk</node>
+                <node x="337.0" y="296.0">apple</node>
+                <node x="233.0" y="74.0">groovyjarjarasm</node>
+                <node x="0.0" y="444.0">java</node>
+                <node x="381.0" y="222.0">groovy</node>
+                <node x="0.0" y="370.0">javax</node>
+                <node x="0.0" y="0.0">groovyjarjarcommonscli</node>
+                <node x="169.0" y="296.0">javafx</node>
+                <node x="163.0" y="370.0">Main</node>
+                <node x="0.0" y="74.0">groovyjarjarantlr</node>
+              </nodes>
+              <notes />
+              <edges />
+              <settings layout="Hierarchic Group" zoom="1.4058685302734375" x="-25.734764204699587" y="71.32952189721607" />
+              <SelectedNodes>
+                <node>groovyjarjarcommonscli</node>
+              </SelectedNodes>
+              <Categories>
+                <Category>Methods</Category>
+                <Category>Properties</Category>
+                <Category>Inner Classes</Category>
+                <Category>Fields</Category>
+                <Category>Constructors</Category>
+              </Categories>
+              <SCOPE>All</SCOPE>
+              <VISIBILITY>private</VISIBILITY>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JAVA/Main" pinned="false" current-in-tab="true">
+        <entry file="uml://JAVA/Main">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JAVA</ID>
+              <OriginalElement>Main</OriginalElement>
+              <nodes>
+                <node x="0.0" y="670.0">Main.messageThreadPanelGenerator</node>
+                <node x="436.0" y="1133.0">Main.MessageViewGenerator</node>
+                <node x="0.0" y="0.0">Main.registerScreen</node>
+                <node x="1189.0" y="1133.0">Main.BlaBlaClient</node>
+                <node x="0.0" y="1133.0">Main.threadPanelGenerator</node>
+                <node x="624.0" y="670.0">Main.threadViewGenerator</node>
+                <node x="595.0" y="499.0">Main.messagesPanelGenerator.Update</node>
+                <node x="951.0" y="0.0">Main.LoginScreen</node>
+                <node x="225.0" y="1037.0">Main.messageThreadPanelGenerator.Update</node>
+                <node x="413.0" y="0.0">Main.messagesPanelGenerator</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="Main.messagesPanelGenerator.Update" target="Main.messagesPanelGenerator">
+                  <point x="0.0" y="-25.5" />
+                  <point x="0.0" y="224.5" />
+                </edge>
+                <edge source="Main.messageThreadPanelGenerator.Update" target="Main.messageThreadPanelGenerator">
+                  <point x="0.0" y="-25.5" />
+                  <point x="0.0" y="158.5" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="1.005761407366685" x="383.9066620023176" y="820.7200953276341" />
+              <SelectedNodes>
+                <node>Main.messageThreadPanelGenerator</node>
+                <node>Main.MessageViewGenerator</node>
+                <node>Main.registerScreen</node>
+                <node>Main.BlaBlaClient</node>
+                <node>Main.threadPanelGenerator</node>
+                <node>Main.threadViewGenerator</node>
+                <node>Main.messagesPanelGenerator.Update</node>
+                <node>Main.LoginScreen</node>
+                <node>Main.messageThreadPanelGenerator.Update</node>
+                <node>Main.messagesPanelGenerator</node>
+              </SelectedNodes>
+              <Categories>
+                <Category>Fields</Category>
+                <Category>Constructors</Category>
+                <Category>Methods</Category>
+                <Category>Properties</Category>
+                <Category>Inner Classes</Category>
+              </Categories>
+              <SCOPE>All</SCOPE>
+              <VISIBILITY>private</VISIBILITY>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ChatClientFinal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ChatClientFinal" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ChatClientFinal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ChatClientFinal" type="462c0819:PsiDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ChatClientFinal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ChatClientFinal" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ChatClientFinal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ChatClientFinal" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Main" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7526b946-02c8-469a-ba00-7e3cfbebd6c4" name="Default" comment="" />
+      <created>1524416065819</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1524416065819</updated>
+      <workItem from="1524416067829" duration="2305000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="2305000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <layout>
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info id="Image Layers" />
+      <window_info anchor="bottom" id="Java Enterprise" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info id="Capture Tool" />
+      <window_info id="Designer" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info anchor="right" id="Database" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="uml://MODULES/mdl-ChatClientFinal">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MODULES</ID>
+          <OriginalElement>mdl-ChatClientFinal</OriginalElement>
+          <nodes>
+            <node x="95.25" y="0.0">mdl-ChatClientFinal</node>
+            <node x="185.0" y="79.0">mdl-generated-sources</node>
+            <node x="0.0" y="79.0">mdl-jax-wsCache</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="mdl-ChatClientFinal" target="mdl-jax-wsCache">
+              <point x="-44.75" y="14.5" />
+              <point x="140.0" y="54.0" />
+              <point x="82.5" y="54.0" />
+              <point x="0.0" y="-14.5" />
+            </edge>
+            <edge source="mdl-ChatClientFinal" target="mdl-generated-sources">
+              <point x="44.75" y="14.5" />
+              <point x="229.5" y="54.0" />
+              <point x="287.0" y="54.0" />
+              <point x="0.0" y="-14.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.6318511962890625" x="-49.743340034597225" y="-119.10076207396324" />
+          <SelectedNodes>
+            <node>mdl-ChatClientFinal</node>
+            <node>mdl-jax-wsCache</node>
+          </SelectedNodes>
+          <Categories />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement />
+          <nodes>
+            <node x="324.0" y="370.0">com</node>
+            <node x="193.0" y="222.0">netscape</node>
+            <node x="0.0" y="296.0">oracle</node>
+            <node x="311.0" y="444.0">org</node>
+            <node x="0.0" y="148.0">WebService</node>
+            <node x="0.0" y="222.0">resources</node>
+            <node x="278.0" y="0.0">toolbarButtonGraphics</node>
+            <node x="156.0" y="444.0">sun</node>
+            <node x="204.0" y="148.0">META-INF</node>
+            <node x="0.0" y="518.0">jdk</node>
+            <node x="337.0" y="296.0">apple</node>
+            <node x="233.0" y="74.0">groovyjarjarasm</node>
+            <node x="0.0" y="444.0">java</node>
+            <node x="381.0" y="222.0">groovy</node>
+            <node x="0.0" y="370.0">javax</node>
+            <node x="0.0" y="0.0">groovyjarjarcommonscli</node>
+            <node x="169.0" y="296.0">javafx</node>
+            <node x="163.0" y="370.0">Main</node>
+            <node x="0.0" y="74.0">groovyjarjarantlr</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.4058685302734375" x="-25.734764204699587" y="71.32952189721607" />
+          <SelectedNodes>
+            <node>groovyjarjarcommonscli</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+            <Category>Inner Classes</Category>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/Main">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>Main</OriginalElement>
+          <nodes>
+            <node x="0.0" y="670.0">Main.messageThreadPanelGenerator</node>
+            <node x="436.0" y="1133.0">Main.MessageViewGenerator</node>
+            <node x="0.0" y="0.0">Main.registerScreen</node>
+            <node x="1189.0" y="1133.0">Main.BlaBlaClient</node>
+            <node x="0.0" y="1133.0">Main.threadPanelGenerator</node>
+            <node x="624.0" y="670.0">Main.threadViewGenerator</node>
+            <node x="595.0" y="499.0">Main.messagesPanelGenerator.Update</node>
+            <node x="951.0" y="0.0">Main.LoginScreen</node>
+            <node x="225.0" y="1037.0">Main.messageThreadPanelGenerator.Update</node>
+            <node x="413.0" y="0.0">Main.messagesPanelGenerator</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="Main.messagesPanelGenerator.Update" target="Main.messagesPanelGenerator">
+              <point x="0.0" y="-25.5" />
+              <point x="0.0" y="224.5" />
+            </edge>
+            <edge source="Main.messageThreadPanelGenerator.Update" target="Main.messageThreadPanelGenerator">
+              <point x="0.0" y="-25.5" />
+              <point x="0.0" y="158.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.005761407366685" x="383.9066620023176" y="820.7200953276341" />
+          <SelectedNodes>
+            <node>Main.messageThreadPanelGenerator</node>
+            <node>Main.MessageViewGenerator</node>
+            <node>Main.registerScreen</node>
+            <node>Main.BlaBlaClient</node>
+            <node>Main.threadPanelGenerator</node>
+            <node>Main.threadViewGenerator</node>
+            <node>Main.messagesPanelGenerator.Update</node>
+            <node>Main.LoginScreen</node>
+            <node>Main.messageThreadPanelGenerator.Update</node>
+            <node>Main.messagesPanelGenerator</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

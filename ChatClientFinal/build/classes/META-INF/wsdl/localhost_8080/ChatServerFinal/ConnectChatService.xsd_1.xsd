@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='UTF-8'?><!-- Published by JAX-WS RI (http://jax-ws.java.net). RI's version is Metro/2.3.2-b608 (trunk-7979; 2015-01-21T12:50:19+0000) JAXWS-RI/2.2.11-b150120.1832 JAXWS-API/2.2.12 JAXB-RI/2.2.12-b141219.1637 JAXB-API/2.2.13-b141020.1521 svn-revision#unknown. --><xs:schema xmlns:tns="http://Services/" xmlns:xs="http://www.w3.org/2001/XMLSchema" version="1.0" targetNamespace="http://Services/">
+
+<xs:element name="addMessage" type="tns:addMessage"/>
+
+<xs:element name="addMessageResponse" type="tns:addMessageResponse"/>
+
+<xs:element name="addThread" type="tns:addThread"/>
+
+<xs:element name="addThreadResponse" type="tns:addThreadResponse"/>
+
+<xs:element name="getMessages" type="tns:getMessages"/>
+
+<xs:element name="getMessagesResponse" type="tns:getMessagesResponse"/>
+
+<xs:element name="getThreadMessage" type="tns:getThreadMessage"/>
+
+<xs:element name="getThreadMessageResponse" type="tns:getThreadMessageResponse"/>
+
+<xs:complexType name="addThread">
+<xs:sequence>
+<xs:element name="name" type="xs:string" minOccurs="0"/>
+<xs:element name="user" type="tns:User" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="User">
+<xs:sequence>
+<xs:element name="userID" type="xs:int"/>
+<xs:element name="username" type="xs:string" minOccurs="0"/>
+<xs:element name="nickname" type="xs:string" minOccurs="0"/>
+<xs:element name="password" type="xs:unsignedShort" minOccurs="0" maxOccurs="unbounded"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="addThreadResponse">
+<xs:sequence>
+<xs:element name="return" type="tns:MessageThread" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="MessageThread">
+<xs:sequence>
+<xs:element name="threadID" type="xs:int"/>
+<xs:element name="threadName" type="xs:string" minOccurs="0"/>
+<xs:element name="ownerID" type="tns:User" minOccurs="0"/>
+<xs:element name="lastEditedBy" type="tns:User" minOccurs="0"/>
+<xs:element name="lastEdit" type="xs:dateTime" minOccurs="0"/>
+<xs:element name="messages" type="tns:Message" minOccurs="0" maxOccurs="unbounded"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="Message">
+<xs:sequence>
+<xs:element name="messageBody" type="xs:string" minOccurs="0"/>
+<xs:element name="sender" type="tns:User" minOccurs="0"/>
+<xs:element name="sentDate" type="xs:dateTime" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="getThreadMessage">
+<xs:sequence>
+<xs:element name="threadID" type="xs:int"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="getThreadMessageResponse">
+<xs:sequence>
+<xs:element name="return" type="tns:Message" minOccurs="0" maxOccurs="unbounded"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="getMessages">
+<xs:sequence>
+<xs:element name="user" type="tns:User" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="getMessagesResponse">
+<xs:sequence>
+<xs:element name="return" type="tns:MessageThread" minOccurs="0" maxOccurs="unbounded"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="addMessage">
+<xs:sequence>
+<xs:element name="messageBody" type="xs:string" minOccurs="0"/>
+<xs:element name="sender" type="tns:User" minOccurs="0"/>
+<xs:element name="threadId" type="xs:int"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="addMessageResponse">
+<xs:sequence>
+<xs:element name="return" type="tns:Message" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+</xs:schema>
